@@ -4,7 +4,7 @@
 
 export default function ShippingForm() {
     return (
-        <div className="flex flex-col gap-16 w-[40%]">
+        <div className="flex flex-col gap-16 w-[50%]">
             <h1 className="text-2xl text-white font-semibold">Add Shipping Address</h1>
 
             <form action="" className="grid grid-cols-2 gap-12 ">
