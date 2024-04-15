@@ -3,7 +3,9 @@ import heroImage from "../assets/hero/hero-image.png";
 
 export default function Hero() {
   return (
-    <main className="max-w-[80%] mx-auto py-12">
+    <main className=" relative max-w-[80%] mx-auto py-12">
+      <div className="absolute w-[532px] h-[2167.48px] bg-[#C1D5D9] filter blur-2xl -top-[354.46px] left-[651px] -z-10"></div>
+      <div className="absolute w-[532px] h-[2167.48px] bg-[#EEDDBE] filter blur-2xl top-[220.01px] -left-[217px] -z-10"></div>
       <div className="flex items-center justify-between">
         <div className="flex flex-col gap-6 w-1/2">
           <h1 className="text-6xl font-display font-bold">
